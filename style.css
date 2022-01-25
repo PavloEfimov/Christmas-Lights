@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+}
+.circle{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#one{
+    background-color: rgb(114, 2, 2);
+}
+#one.on{
+    background-color: rgb(247, 8, 8);
+}
+#two{
+    background-color: rgb(160, 47, 3);
+}
+#two.on{
+    background-color: rgb(255, 98, 7);
+}
+#three{
+    background-color: rgb(133, 124, 4);
+}
+#three.on{
+    background-color: rgb(216, 253, 6);
+}
+#four{
+    background-color: rgb(1, 70, 18);
+}
+#four.on{
+    background-color: rgb(6, 248, 107);
+}
+#five{
+    background-color: rgb(2, 82, 114);
+}
+#five.on{
+    background-color: rgb(8, 199, 247);
+}
+#six{
+    background-color: rgb(8, 2, 90);
+}
+#six.on{
+    background-color: rgb(49, 85, 245);
+}
+#seven{
+    background-color: rgb(50, 2, 82);
+}
+#seven.on{
+    background-color: rgb(133, 45, 233);
+}

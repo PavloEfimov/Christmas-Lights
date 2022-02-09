@@ -1,52 +1,87 @@
-.container{
+.container div{
     display: flex;
+    --var-opacity: 0.5;
+    --var-radius: 70px;
 }
 .circle{
     border: 1px solid black;
-    height: 50px;
-    width: 50px;
+    height: var(--var-radius);
+    width: var(--var-radius);
     border-radius: 50%;
     margin: 10px;
 }
-#one{
+.c0{
+    background-color: rgb(114 2 2);
+}
+.c0.on{
+    background-color: rgb(114 2 2 / var(--var-opacity));
+}
+.c1{
+    background-color: rgb(160 47 3);
+}
+.c1.on{
+    background-color: rgb(160 47 3 / var(--var-opacity));
+}
+.c2{
+    background-color: rgb(133 124 4);
+}
+.c2.on{
+    background-color: rgb(133 124 4 / var(--var-opacity));
+}
+.c3{
+    background-color: rgb(1 70 18);
+}
+.c3.on{
+    background-color: rgb(1 70 18 / var(--var-opacity));
+}
+.c4{
+    background-color: rgb(2 82 114);
+}
+.c4.on{
+    background-color: rgb(2 82 114 / var(--var-opacity));
+}
+.c5{
+    background-color: rgb(8 2 90);
+}
+.c5.on{
+    background-color: rgb(8 2 90 / var(--var-opacity));
+}
+.c6{
+    background-color: rgb(50 2 82);
+}
+.c6.on{
+    background-color: rgb(50 2 82 / var(--var-opacity))
+}
+#color{
+    display: flex;
+    visibility: hidden;
+}
+#color div{
+width: 50px;
+height: 50px;
+border: 1px solid black;
+}
+#c0{
     background-color: rgb(114, 2, 2);
 }
-#one.on{
-    background-color: rgb(247, 8, 8);
-}
-#two{
+#c1{
     background-color: rgb(160, 47, 3);
 }
-#two.on{
-    background-color: rgb(255, 98, 7);
-}
-#three{
+#c2{
     background-color: rgb(133, 124, 4);
 }
-#three.on{
-    background-color: rgb(216, 253, 6);
-}
-#four{
+#c3{
     background-color: rgb(1, 70, 18);
 }
-#four.on{
-    background-color: rgb(6, 248, 107);
-}
-#five{
+#c4{
     background-color: rgb(2, 82, 114);
 }
-#five.on{
-    background-color: rgb(8, 199, 247);
-}
-#six{
+#c5{
     background-color: rgb(8, 2, 90);
 }
-#six.on{
-    background-color: rgb(49, 85, 245);
-}
-#seven{
+#c6{
     background-color: rgb(50, 2, 82);
 }
-#seven.on{
-    background-color: rgb(133, 45, 233);
+#radiusDiv{
+    visibility: hidden;
 }
